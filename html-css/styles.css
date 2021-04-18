@@ -1,3 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 1000px;
+}
+
+.header{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(37, 37, 37);
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.buttons{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    right: 0;
+    top: 10px;
+    margin: 10px;
+}
+
+h1{
+    color: rgb(42, 171, 226);
+    position: fixed;
+    left: 0;
+    top: 0px;
+    margin: 10px;
+}
+
+.home{
+    color: rgb(255, 255, 255)
+}
+
+.topics{
+    color: rgb(255, 255, 255)
+}
+
+.subscribe{
+    color: rgb(255, 255, 255)
+}
+
+.sign-in{
+    color: rgb(255, 255, 255)
+}
+
+
+.text-box{
+    /* background-color: blue; */
+    width: 50%;
+    height: 600px;
+    position: relative;
+    left: 10%;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.profile{
+    width: 15%;
+    height: 250px;
+    position: relative;
+    left: 950px;
+    bottom: 500px;
+    box-shadow: 1px 1px 10px 0px rgba(102, 75, 75, .3);
+}
+
+.logo{
+    position: relative;
+    left: 15%;
+    top: 25px;
+}
+
+.name{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.articles{
+    width: 15%;
+    height: 320px;
+    position: relative;
+    left: 950px;
+    bottom: 470px;
+    box-shadow: 1px 1px 10px 0px rgba(102, 75, 75, .3);
+}
+
+.articles-header{
+    text-align: center;
+}
+
+ol{
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+
+li{
+    margin-top: 10px;
+}
+
+.image-header{
+    position: relative;
+    left: 10%;
+    bottom: 480px;
+}
+
+p{
+    color: rgb(42, 171, 226);
+    position: relative;
+    left: 55%;
+    bottom: 470px;
+}
+
+.image-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+
+#row1{
+    position: relative;
+    left: 10%;
+    bottom: 460px;
+}
+
+#row2{
+    position: relative;
+    left: 10%;
+    bottom: 440px;
+}
+
+.question{
+    border: solid;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    background-color: rgb(42, 171, 226);
+}
+
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(42, 171, 226);
+    position: relative;
+    bottom: 420px;
+}
+
+.footer-text{
+    color: black;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
 /* 
 
 these are the colors used in the example
@@ -12,3 +184,4 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+

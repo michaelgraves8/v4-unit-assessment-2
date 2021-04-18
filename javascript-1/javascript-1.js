@@ -24,6 +24,7 @@ const nestedLetters = ['m', 'g', 'e', 'q', 'h', ['n', 'b', ['v', 'z', 'y', 'r']]
 //CODE HERE
 
 // const foundZ = nestedLetters[5[2[1]]]
+// const foundZ = nestedLetters[5][2][1]
 const firstLayer = nestedLetters[5]
 const secondLayer = firstLayer[2]
 const foundZ = secondLayer[1]
@@ -299,8 +300,8 @@ const fidoSpeak = bark.call(fido)
 //CODE HERE
 
 function teachTrick(trick){
-    this.tricks = []
-    this.tricks.push(trick)
+    tricks = []
+    tricks.push(trick)
     return this.tricks
 }
 
@@ -324,7 +325,7 @@ const teachStay = teachTrick.bind(fido, 'stay')
 //CODE HERE
 
 function dogIntro(treat, toy){
-    return `${this.name} is a ${this.breed} that loves ${this.treat} and their ${this.toy}!`
+    return `${this.name} is a ${this.breed} that loves ${treat} and their ${toy}!`
 }
 
 /*
@@ -335,7 +336,7 @@ function dogIntro(treat, toy){
 
 //CODE HERE
 
-const fidoIntro = dogIntro.apply(fido, ['chicken', 'tennis ball'])
+const fidoIntro = dogIntro.apply(fido, ['chicken', 'tennis ball']);
 
 ////////////////////PROBLEM 15////////////////////
 /*
