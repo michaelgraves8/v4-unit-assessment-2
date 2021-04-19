@@ -147,9 +147,9 @@ delete gameInfo.rating
 
 //CODE HERE
 
-for(i in shapes){
-    if (i % 2 !== 0){
-        delete shapes.i
+for(let i in shapes){
+    if (shapes[i] % 2 !== 0){
+        delete shapes[i]
     }
 }
 
@@ -202,9 +202,9 @@ const classes = [
 //CODE HERE
 
 for(i = 0; i < classes.length; i++){
-    for(element in i){
-        if (element === true){
-            element = false
+    for(element in classes){
+        if (i[element] === true){
+            i[element] = false
         }
     }
 }
@@ -227,6 +227,7 @@ let pairsArray = []
 for(i = 0; i < lettersToPair.length; i++){
     for(j = i + 1; j < lettersToPair.length; j++){
         if (i === j){
+            newPair = 
             pairsArray.push(i)
         }
     }
